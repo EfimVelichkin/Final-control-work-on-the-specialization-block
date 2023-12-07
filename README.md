@@ -19,3 +19,9 @@ mv "Друзья человека" "newDir"
 sudo apt-get update
 sudo apt-get install mysql-server
 ---
+# Задание №4
+### Установить и удалить deb-пакет с помощью dpkg.
+---
+sudo dpkg --install google-chrome-stable_current_amd64.deb
+sudo dpkg --remove google-chrome-stable
+---
