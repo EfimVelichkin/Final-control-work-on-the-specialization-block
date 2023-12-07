@@ -25,3 +25,24 @@ sudo apt-get install mysql-server
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo dpkg --remove google-chrome-stable
 ---
+# Задание №5
+### Выложить историю команд в терминале ubuntu
+---
+echo "собаки, кошки, хомяки" > "Домашние животные"
+echo "лошади, верблюды, ослы" > "Вьючные животные"
+cat "Домашние животные" "Вьючные животные" > "Объединенный файл"
+cat "Объединенный файл"
+mv "Объединенный файл" "Друзья человека"
+mkdir "newDir"
+mv "Друзья человека" "newDir"
+sudo add-apt-repository 'deb http;//archive.ubuntu.com/ubuntu trusty universe'
+sudo apt-get update
+sudo apt-get install mysql-server
+sudo dpkg -i package_name.deb
+cd Загрузки
+sudo dpkg --install google-chrome-stable_current_amd64.deb 
+sudo dpkg --remove google-chrome-stable 
+cd ../
+history
+---
+
