@@ -41,8 +41,10 @@ sudo apt-get install mysql-server
 sudo dpkg -i package_name.deb
 cd Загрузки
 sudo dpkg --install google-chrome-stable_current_amd64.deb 
-sudo dpkg --remove google-chrome-stable 
+sudo dpkg --remove google-chrome-stable
 cd ../
 history
 ---
-
+# Задание №6
+###  Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы).
+![Diagramm](https://github.com/EfimVelichkin/Final-control-work-on-the-specialization-block/assets/120294162/857d7d99-4bc6-40c6-a1dd-508a129d4162)
